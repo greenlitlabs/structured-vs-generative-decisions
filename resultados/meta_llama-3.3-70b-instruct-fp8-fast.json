@@ -1,0 +1,12 @@
+{
+  "modelo": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "chamadas": 72,
+  "erros_de_contrato": 0,
+  "latencia_p50_ms": 1117.9,
+  "latencia_p95_ms": 2665.1,
+  "acerto_departamento": 1.0,
+  "acerto_urgente": 0.667,
+  "tokens_entrada_por_chamada": 164.3,
+  "tokens_saida_por_chamada": 26.8,
+  "exemplos_de_erro": []
+}

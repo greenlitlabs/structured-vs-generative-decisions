@@ -1,0 +1,200 @@
+{
+  "modelo": "@cf/cloudflare/clef",
+  "faixas": [
+    {
+      "limiar": 0.0,
+      "decididos": 24,
+      "acerto": 0.833
+    },
+    {
+      "limiar": 0.7,
+      "decididos": 22,
+      "acerto": 0.818
+    },
+    {
+      "limiar": 0.8,
+      "decididos": 20,
+      "acerto": 0.85
+    },
+    {
+      "limiar": 0.9,
+      "decididos": 17,
+      "acerto": 1.0
+    },
+    {
+      "limiar": 0.95,
+      "decididos": 14,
+      "acerto": 1.0
+    }
+  ],
+  "tickets": [
+    {
+      "texto": "O checkout está falhando para todos os clientes há uma hora.",
+      "esperado": true,
+      "p_urgente": 0.9885,
+      "previsto": true,
+      "certeza": 0.9885
+    },
+    {
+      "texto": "Fui cobrado duas vezes na fatura de setembro, preciso do estorno hoje.",
+      "esperado": true,
+      "p_urgente": 0.9823,
+      "previsto": true,
+      "certeza": 0.9823
+    },
+    {
+      "texto": "Esqueci minha senha e o e-mail de recuperação não chega.",
+      "esperado": false,
+      "p_urgente": 0.0702,
+      "previsto": false,
+      "certeza": 0.9298
+    },
+    {
+      "texto": "A página de relatórios demora uns 10 segundos para abrir, quando der.",
+      "esperado": false,
+      "p_urgente": 0.0696,
+      "previsto": false,
+      "certeza": 0.9304
+    },
+    {
+      "texto": "Quero trocar o cartão de crédito da assinatura antes do próximo mês.",
+      "esperado": false,
+      "p_urgente": 0.3709,
+      "previsto": false,
+      "certeza": 0.6291
+    },
+    {
+      "texto": "Não consigo entrar na conta e tenho uma apresentação em 20 minutos.",
+      "esperado": true,
+      "p_urgente": 0.9895,
+      "previsto": true,
+      "certeza": 0.9895
+    },
+    {
+      "texto": "A API retorna erro 500 em todas as chamadas de produção desde as 14h.",
+      "esperado": true,
+      "p_urgente": 0.9898,
+      "previsto": true,
+      "certeza": 0.9898
+    },
+    {
+      "texto": "Gostaria de receber a nota fiscal do mês passado em PDF.",
+      "esperado": false,
+      "p_urgente": 0.0062,
+      "previsto": false,
+      "certeza": 0.9938
+    },
+    {
+      "texto": "Preciso mudar o e-mail cadastrado, o antigo foi desativado.",
+      "esperado": false,
+      "p_urgente": 0.2666,
+      "previsto": false,
+      "certeza": 0.7334
+    },
+    {
+      "texto": "O botão de exportar não faz nada quando clico, só em um navegador.",
+      "esperado": false,
+      "p_urgente": 0.0414,
+      "previsto": false,
+      "certeza": 0.9586
+    },
+    {
+      "texto": "Cancelei dentro da garantia e o valor ainda não voltou, já faz 15 dias.",
+      "esperado": false,
+      "p_urgente": 0.8683,
+      "previsto": true,
+      "certeza": 0.8683
+    },
+    {
+      "texto": "Minha conta foi bloqueada depois de três tentativas e preciso acessar agora.",
+      "esperado": true,
+      "p_urgente": 0.9725,
+      "previsto": true,
+      "certeza": 0.9725
+    },
+    {
+      "texto": "O painel mostra dados de ontem, o sync parece parado.",
+      "esperado": false,
+      "p_urgente": 0.7611,
+      "previsto": true,
+      "certeza": 0.7611
+    },
+    {
+      "texto": "Vocês cobraram um plano anual que eu não contratei, isso é inaceitável.",
+      "esperado": true,
+      "p_urgente": 0.9628,
+      "previsto": true,
+      "certeza": 0.9628
+    },
+    {
+      "texto": "Como altero o nome que aparece no meu perfil?",
+      "esperado": false,
+      "p_urgente": 0.0048,
+      "previsto": false,
+      "certeza": 0.9952
+    },
+    {
+      "texto": "O app fecha sozinho sempre que abro a tela de pagamentos.",
+      "esperado": false,
+      "p_urgente": 0.886,
+      "previsto": true,
+      "certeza": 0.886
+    },
+    {
+      "texto": "Boleto gerado com valor diferente do combinado, podem corrigir?",
+      "esperado": false,
+      "p_urgente": 0.0521,
+      "previsto": false,
+      "certeza": 0.9479
+    },
+    {
+      "texto": "Recebi um e-mail de login suspeito na minha conta, acho que alguém entrou.",
+      "esperado": true,
+      "p_urgente": 0.9593,
+      "previsto": true,
+      "certeza": 0.9593
+    },
+    {
+      "texto": "Todo o sistema está fora do ar e nossos clientes não conseguem comprar.",
+      "esperado": true,
+      "p_urgente": 0.99,
+      "previsto": true,
+      "certeza": 0.99
+    },
+    {
+      "texto": "Podem me enviar o histórico de pagamentos dos últimos 6 meses?",
+      "esperado": false,
+      "p_urgente": 0.0051,
+      "previsto": false,
+      "certeza": 0.9949
+    },
+    {
+      "texto": "Quero excluir minha conta e meus dados.",
+      "esperado": false,
+      "p_urgente": 0.8388,
+      "previsto": true,
+      "certeza": 0.8388
+    },
+    {
+      "texto": "A busca está lenta de manhã, nada grave, só queria avisar.",
+      "esperado": false,
+      "p_urgente": 0.0064,
+      "previsto": false,
+      "certeza": 0.9936
+    },
+    {
+      "texto": "O desconto prometido não apareceu na cobrança e vence hoje.",
+      "esperado": true,
+      "p_urgente": 0.9795,
+      "previsto": true,
+      "certeza": 0.9795
+    },
+    {
+      "texto": "Não recebo o código de verificação por SMS para entrar.",
+      "esperado": false,
+      "p_urgente": 0.3263,
+      "previsto": false,
+      "certeza": 0.6737
+    }
+  ]
+}

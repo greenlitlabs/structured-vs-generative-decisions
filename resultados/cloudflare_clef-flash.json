@@ -1,0 +1,12 @@
+{
+  "modelo": "@cf/cloudflare/clef-flash",
+  "chamadas": 72,
+  "erros_de_contrato": 0,
+  "latencia_p50_ms": 575.3,
+  "latencia_p95_ms": 1084.1,
+  "acerto_departamento": 1.0,
+  "acerto_urgente": 0.875,
+  "tokens_entrada_por_chamada": 356.4,
+  "tokens_saida_por_chamada": 0.0,
+  "exemplos_de_erro": []
+}
